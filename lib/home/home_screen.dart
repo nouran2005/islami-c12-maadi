@@ -6,7 +6,6 @@ import 'package:islami_c12_maadi/home/tabs/SebhaTab.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:islami_c12_maadi/home/tabs/SettingsTab.dart';
 import 'package:islami_c12_maadi/providers/SettingsProvider.dart';
-import 'package:islami_c12_maadi/style/AppStyle.dart';
 import 'package:provider/provider.dart';
 // this is home
 class HomeScreen extends StatefulWidget {
@@ -21,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   List<Widget> tabs = [
     QuranTab(),
     AhadethTab(),
-    SebhaTab(),
+    TasbeehTap(),
     RadioTab(),
     SettingsTab(),
   ];

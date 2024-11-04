@@ -4,7 +4,6 @@ import 'package:islami_c12_maadi/providers/SettingsProvider.dart';
 import 'package:islami_c12_maadi/quran_details/quran_details_screen.dart';
 import 'package:islami_c12_maadi/style/AppStyle.dart';
 import 'package:provider/provider.dart';
-
 import 'ahadeth_details/ahadeth_details_screen.dart';
 import 'home/home_screen.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
